@@ -1,5 +1,7 @@
 #include<iostream> 
 using namespace std;
+
+
 class Person 
 {
     private: 
@@ -69,7 +71,7 @@ int main2(int argc, char const *argv[])
 {
     Employee *emp = new Employee( ); 
     emp->displayRecord( ); //emp->Employee::displayRecord(); 
-    return 0;
+    return 0;                   
 }
 
 int main1()
